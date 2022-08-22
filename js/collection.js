@@ -18,7 +18,7 @@ const colorPickerContEl = document.querySelector(".js-color-picker");
 // });
 // console.log(elements);
 
-// OLDSKOOOL
+// // OLDSKOOOL
 // for (let i = 0; i < colorPickerOprion.length; i += 1) {
 //   const option = colorPickerOprion[i];
 
@@ -30,15 +30,15 @@ const colorPickerContEl = document.querySelector(".js-color-picker");
 //   elements.push(buttonEl);
 // }
 
-const makeColorPickerOptions = (options) => {
-  return options.map((option) => {
-    const buttonEl = document.createElement("button");
-    buttonEl.type = "button";
-    buttonEl.textContent = option.label;
-    buttonEl.style.backgroundColor = option.color;
-    return buttonEl;
-  });
-};
+// const makeColorPickerOptions = (options) => {
+//   return options.map((option) => {
+//     const buttonEl = document.createElement("button");
+//     buttonEl.type = "button";
+//     buttonEl.textContent = option.label;
+//     buttonEl.style.backgroundColor = option.color;
+//     return buttonEl;
+//   });
+// };
 
-const elements = makeColorPickerOptions(colorPickerOprion);
-colorPickerContEl.append(...elements);
+// const elements = makeColorPickerOptions(colorPickerOprion);
+// colorPickerContEl.append(...elements);
